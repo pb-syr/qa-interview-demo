@@ -38,13 +38,13 @@ The Karate feature needs Java 11+: `java -jar karate.jar karate/order-api.featur
 
 ## Demonstration 
 
-**1. AI-assisted test case generation (2 min).**
+**1. AI-assisted test case generation:**
 Open `ai-assisted/test-case-prompt.md`. Show the prompt, then
 `generated-test-cases.md`: "I had the LLM draft 10 cases, I reviewed them,
 dropped 2 duplicates, and implemented the P0s. The skill is directing and
 filtering AI output, not just accepting it."
 
-**2. Live E2E run (3 min).**
+**2. Live E2E run:**
 `npx playwright test tests/e2e/checkout.spec.ts --headed`.
 Narrate: page object model, data driven from `test-data/users.json`
 (standard user happy path + locked-out negative path).
