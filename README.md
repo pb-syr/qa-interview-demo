@@ -1,6 +1,6 @@
 # Retail Checkout QA Demo
 
-An end to end QA demonstration built as interview material for a **QA Tester**
+An end to end QA demonstration built as interview material for a **QA Engineer**
 role: Playwright UI automation (page object model, data driven), API testing,
 service layer mocking, AI-assisted test case generation, defect triage with
 traces, HTML reporting and CI.
@@ -36,7 +36,7 @@ npm run report               # open the HTML report
 
 The Karate feature needs Java 11+: `java -jar karate.jar karate/order-api.feature`.
 
-## The 10 minute demo script (screen share)
+## Demonstration 
 
 **1. AI-assisted test case generation (2 min).**
 Open `ai-assisted/test-case-prompt.md`. Show the prompt, then
@@ -69,7 +69,7 @@ Open `.github/workflows/ci.yml`: "Every push runs the suite and uploads the
 HTML report as an artifact — the same shape as a Jenkins pipeline publishing
 test reports."
 
-## Interview talking points
+## Role Alignment:
 
 - **Depth story (production):** 3.5 years QA on McDonald's POS (NP6),
   Backoffice, kiosk and digital ordering across US/AU. Regression,
